@@ -53,7 +53,10 @@ Questions about HW0 or plan for today?
 
 Thanks to the TA for running installation help office hours - hopefully you have been able to get your installation issues resolved!
 
-- A few of you only have everything working up to PySpark. You will need PySpark working for the latter part of the course.
+- As of yesterday, most of you have everything working up to PySpark (with one or two still working on PySpark). You will need PySpark working for the latter part of the course.
+  We found that:
+  - for Windows, Java 11, Python 3.12.3, Pyspark 3.5.3 work
+  - for Mac/WSL: Java 21 or 22 works.
 
 Plan for today:
 
@@ -64,3 +67,68 @@ Plan for today:
 - A more realistic example to go through
 
 - (If time) Failures and risks
+
+## Monday, October 6
+
+Announcements:
+
+- HW1 is released! Due: Friday, October 17
+
+  https://github.com/DavisPL-Teaching/119-hw1
+
+  Please get started early!
+
+- I will need to end OH early today at 5pm
+
+Plan:
+
+- Practice with Dataflow Graphs :)
+
+- A little bit about data validation
+
+- Measuring performance
+
+## Wednesday, October 8
+
+Reminders:
+
+- HW1 due Fri Oct 17
+
+Announcements:
+
+- ~~Midterm date: tenatively set for **Friday, November 7**~~
+
+- Discussion section Zoom link/recording will be available in Canvas going forward!
+
+- Waitlist update
+
+Plan:
+
+- Start with discussion question
+
+- Talk about performance
+
+- (If time) Talk about failures and risks in pipelines
+
+- We will finish up Lecture 1 today and Friday and then move to Lecture 2 on the Shell.
+
+## Friday, October 10
+
+Announcements:
+
+- Waitlist update:
+  They were able to admit a few students off the waitlist. I was told that they emailed out PTAs.
+
+- Reminder: HW1 due Fri Oct 17
+
+- Questions on Piazza -- also, join the student-run Discord!
+
+- HW1 prelminary autograder available!
+
+Plan:
+
+- Poll (and a quick check-in on pacing)
+
+- Finish performance discussion.
+
+Questions?

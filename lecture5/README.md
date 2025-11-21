@@ -1,189 +1,102 @@
 # Lecture 5: Distributed Pipelines
 
-**This is an old version of the lecture from the Fall 2024 iteration of the course. It has not yet been updated for Fall 2025.**
-
-## Nov 4
+## Nov 12
 
 Announcements:
 
-- Mid-quarter survey is now available:
-  https://forms.gle/pMLRBJbMWuXUSSFF9
+- HW2 now available! (Early release)
 
-  Worth 1 point of extra credit if completed.
-  (Make sure you fill out the second form, link available after the first one is completed, to get the extra credit.)
+    https://github.com/DavisPL-Teaching/119-hw2
 
-  Due Thursday.
+    Due Monday, Nov 24
 
-  Please do fill it out! I appreciate all of your feedback and
-  use it to make changes (both this year and next year).
-  This is especially helpful as this is a new course and much
-  of the content is still in flux as to what is most important
-  to cover.
+    Some minor changes possible before Monday, will be announced on Piazza
 
-- Midterm on Friday.
+Plan:
 
-  **Details on the midterm:**
-  See exams/midterm.md
+- Start with poll
+
+- Lecture 5, part 1: introduction to distributed pipelines and PySpark.
 
 Questions?
 
-Plan:
-
-- Go over midterm study list
-
-- Recap on dataflow graphs and poll
-
-- Scalable collection types
-
-- Programming over collection types with distributed data pipelines.
-
-## Nov 6
+## Friday, November 14
 
 Announcements:
 
-- Midterm on Friday
+- HW2 due Nov 24
 
-    + My office hours are moved to tomorrow, Thursday 430-530pm.
+  I made a few clarifications based on fixes from last year!
+  Please pull to get the latest.
 
-    + I will reserve 5-10 minutes at the start of class to help with any study/review questions.
+  + [Diff 1](https://github.com/DavisPL-Teaching/119-hw2/commit/f81558e317fbe427367da3b4c5828265ab4085be)
 
-    + Poll question answers: poll_answers.md
-
-- Thank you to those of you who have filled out the mid-quarter survey so far!
-    Your answers have been super helpful.
-    If you haven't yet, please fill it out!
-    Survey (+EC) open through EOD tomorrow.
+  + [Diff 2](https://github.com/DavisPL-Teaching/119-hw2/commit/7e6beaab93cdf1f30ea1fbc55535c2db9f99208a)
 
 Plan:
-
-- Start with the poll
-
-- Recap on scalable collection types
-
-    + comparison between Python collections and scalable collections
-
-- RDD fundamentals: laziness, wide/narrow operators, partitioning
-
-- A second scalable collectoin type: DataFrames
-
-- MapReduce and how Spark works under the hood.
-
-## Nov 15
-
-Welcome back!
-
-Announcements:
-
-- Midterm is graded, and grades will be released after class today
-
-  I am happy with how everyone did overall!
-  There were a couple of questions I noticed we could have spent more time in class going over
-  the techniques, which I will spend more time on going forward.
-
-- Piazza thread for Wednesday's makeup reading: https://piazza.com/class/m12ef423uj5p5/post/119
-
-- Thank you for the feedback from the mid-quarter survey:
-
-  + Some of you noted that HW1 was long and would prefer shorter assignments released at larger time intervals
-
-  + Stay tuned for an announcement about this on Monday.
-
-Lecture plan:
-
-Continue with RDDs, MapReduce:
-
-- Start with the poll
-
-- Fundamental properties of RDDs:
-  + laziness (transformation/action distinction),
-  + partitioning (wide/narrow distinction)
-
-- Recap on distributed pipelines and dataflow graphs
-
-- MapReduce
-
-- DataFrames
-
-We will finish up Lecture 5 today and Monday.
-
-Questions?
-
-## Nov 18
-
-Announcements:
-
-- Midterm grades released on Friday
-
-- HW plan and poll (vote requested by EOD tomorrow): https://piazza.com/class/m12ef423uj5p5/post/124
-
-- HW1 grades in progress, will be released as soon as possible!
-
-Plan:
-
-- Start with the poll (a small exercise on lazy operators)
-
-- Last property of RDDs: Partitioning
-
-- MapReduce and DataFrames -- A lower-level abstraction and a higher-level abstraction.
-
-- Endnote on Spark (benefits and drawbacks)
-
-Questions?
-
-## Nov 20
-
-Announcements:
-
-- HW1 grades released and makeup option
-
-  + HW1 makeup option: 80% of the points back (for points below 90).
-
-- HW2/3 poll results: 26 votes for, 1 against
-
-  + We will have only 1 more HW (HW2), and no final project.
-
-  + HW will be only 40% of the grade (participation up to 20%)
-
-  + HW2 will be incrementally released starting on Friday.
-
-  + Additionally, there will be a makeup option for HW1. See above.
-
-- Regrade requests (midterm and HW1): deadline in one week, EOD on Wed, Nov 27.
-
-Questions?
-
-Plan:
-
-- In-class poll, wrap up wide/narrow
-
-- DataFrames -- a useful higher-level abstraction
-
-- MapReduce -- a useful lower-level abstraction
-
-- Endnote on Spark (benefits and drawbacks)
-
-## Nov 22
-
-Announcements:
-
-- Reminder: regrade requests are due Wed, Nov 27.
-
-  For how to submit, see: https://piazza.com/class/m12ef423uj5p5/post/129
-
-+ My office hours: after class today, & after class Wed
-
-+ I am working on HW2, will release Part 1 soon.
-
-Plan:
-
-- MapReduce recap
 
 - Poll
 
-- MapReduce, fully general case
+- Lecture 5, part 2: Properties of RDDs
 
-- Some MapReduce exercises
-
-- Endnote on understanding latency & benefits and drawbacks of Spark.
+- (If time) continue to Lecture 6, part 3: MapReduce.
 
 Questions?
+
+## Monday, Nov 17
+
+Reminders:
+
+- HW2 due Nov 24 (1 week from today)
+
+  OH: today 415pm, Friday 11am, Monday 24th 4:15pm
+
+Plan:
+
+- Finish loose ends from Lecture 5, part 2
+
+- Poll
+
+- Part 3: introduction to MapReduce.
+
+Questions?
+
+## Wednesday, Nov 19
+
+Announcements and reminders:
+
+- HW2 due Monday (in 5 days)
+
+  Partial autograder is now available!
+  Try it out ahead of time
+
+  It will give you a preliminary score out of a maximum of 28.
+  (Currently 38 - will be updated after this evening, will be 28.)
+
+- ICYMI:
+
+  + `github_help.md` file for setting up your own Git repo!
+
+  + `hints.md` has hints for some problems.
+
+- Some extra MapReduce material in `extras/` - some of this is covered as part of your homework
+
+Plan:
+
+- Part 4: Data Partitioning
+
+- (If time) Part 5 on DataFrames
+
+Any questions?
+
+## Friday, Nov 19
+
+Plan:
+
+- Narrow and wide operators
+
+- Poll
+
+- We will skip over most of Part 5
+
+- Part 6: end note on disadvantages of Spark.

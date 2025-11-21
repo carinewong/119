@@ -6,52 +6,51 @@ I will try to keep it up to date, but please see Piazza for the latest informati
 
 ## Section 1: Data Processing Basics
 
-| Week | Date | Topic | Readings & HW | Lecture # |
+| Week | Date | Topic | Readings & HW | Lecture \# and part |
 | --- | --- | --- | --- | --- |
 | 0 | Sep 24 | Introduction |  | 0 |
-|   | Sep 26 | Introduction to Data Processing Software |  | 1 |
-| 1 | Sep 29 |  |  | 1 |
-|   | Oct 1  | **No class** | HW0 Due | 1 |
-|   | Oct 3  |  |  | 1 |
-| 2 | Oct 6  | The Shell |  | 2 |
-|   | Oct 8  |  |  | 2 |
-|   | Oct 10 |  |  | 2 |
-| 3 | Oct 13 | Data Operators |  | 3 |
-|   | Oct 15 |  |  | 3 |
-|   | Oct 17 |  |  | 3 |
-| 4 | Oct 20 | Parallelism |  | 4 |
-|   | Oct 22 |  |  | 4 |
-|   | Oct 24 |  |  | 4 |
-| 5 | Oct 27 |  | HW1 due |  |
-|   | Oct 29 |  |  | 4 |
-|   | Oct 31 |  |  | 4 |
+|   | Sep 26 | Introduction to Data Processing Software |  | 1.1 |
+| 1 | Sep 29 |  |  | 1.2 |
+|   | Oct 1  | **No class** | HW0 Due |  |
+|   | Oct 3  |  |  | 1.3 |
+| 2 | Oct 6  |  | HW1 Available | 1.4 |
+|   | Oct 8  |  |  | 1.5 |
+|   | Oct 10 |  |  | 1.6 |
+| 3 | Oct 13 | The Shell |  | 2.1 |
+|   | Oct 15 |  |  | 2.2 |
+|   | Oct 17 |  | HW1 Due | 2.3 |
+| 4 | Oct 20 |  |  | 2.4 |
+|   | Oct 22 |  |  | 2.5, 2.6 |
+|   | Oct 24 | Parallelism |  | 4.1 |
 
 ## Section 2: Parallelism
 
 | Week | Date | Topic | Readings & HW | Lecture # |
 | --- | --- | --- | --- | --- |
-| 6 | Nov 3  | Distributed Pipelines |  | 5 |
-|   | Nov 5  | Review or Overflow |  | 5 |
-|   | Nov 7  | **Midterm** |  |  |
-| 7 | Nov 10 |  |  |  |
-|   | Nov 12 |  |  | 5 |
-|   | Nov 14 |  |  | 5 |
-| 8 | Nov 17 |  |  | 5 |
-|   | Nov 19 |  |  | 5 |
-|   | Nov 21 |  |  | 5 |
+| 5 | Oct 27 |  |  | 4.2 |
+|   | Oct 29 |  |  | 4.3 |
+|   | Oct 31 |  |  | 4.3, 4.4 |
+| 6 | Nov 3  | Review or Overflow |  | 4.4 |
+|   | Nov 5  | **Midterm** |  |  |
+|   | Nov 7  |  |  | 4.5 |
+| 7 | Nov 10 |  |  | 4.5, 4.6 |
+|   | Nov 12 | Distributed Pipelines | HW2 available | 5.1 |
+|   | Nov 14 |  |  | 5.2 |
+| 8 | Nov 17 |  |  | 5.3 |
+|   | Nov 19 |  |  | 5.4 |
+|   | Nov 21 |  |  | 5.4, 5.5, 5.6 |
 
 ## Section 3: Distributed Computing
 
 | Week | Date | Topic | Readings & HW | Lecture # |
 | --- | --- | --- | --- | --- |
-| 9 | Nov 24 | Streaming Pipelines |  | 6 |
+| 9 | Nov 24 | Streaming Pipelines | HW2 due | 6 |
 |   | Nov 26 |  |  | 6 |
 |   | Nov 28 | **No Class** (Thanksgiving) |
-| 10 | Dec 2 |  |  | 6 |
-|    | Dec 4 | Cloud computing or selection of additional topics[^1] |  | 7 |
-|    | Dec 6 | Cloud computing or selection of additional topics[^1] |  | 7 |
-| 11 | Dec 9 |  | HW2 due |  |
-|    | Dec 12 | **Final Exam (8am)** |  |  |
+| 10 | Dec 1 |  |  | 6 |
+|    | Dec 3 | Cloud computing or selection of additional topics[^1] |  | 7 |
+|    | Dec 5 | Cloud computing or selection of additional topics[^1] |  | 7 |
+| 11 | Dec 11 | **Final Exam (8am)** |  |  |
 
 ## Notes
 
