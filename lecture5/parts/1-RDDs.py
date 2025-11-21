@@ -184,7 +184,9 @@ def ex1_rdd(list):
     l3 = l2.filter(lambda x: 100 <= x <= 999)
     print(l3.collect())
 
-# ex1_rdd(INPUT_EXAMPLE)
+ex1_rdd(INPUT_EXAMPLE)
+
+print("hello")
 
 """
 2.
